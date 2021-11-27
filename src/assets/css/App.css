@@ -1,0 +1,17 @@
+:root {
+    --primaryColor: #0072BC;
+    --secondaryColor: #1FA2D6;
+    --blackColor: #010101;
+    --grayColor: #CCCCCC;
+    --whiteColor: #FFFFFF;
+}
+
+.back-primary {
+    background-color: var(--primaryColor);
+}
+
+/* Edit styles bootstrap */
+
+.active {
+    background-color: var(--secondaryColor) !important;
+}
