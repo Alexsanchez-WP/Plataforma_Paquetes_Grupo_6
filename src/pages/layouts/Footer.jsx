@@ -1,60 +1,60 @@
 import React from 'react';
-import { NavLink, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
     return (
         <footer>
             <div className="back-primary">
-                <div className="container d-flex">
+                <div className="container d-flex"> 
                     <ul className="col-sm-12 col-lg-3 navbar-nav back-primary mx-5 " role="tablist">
                         <li className="nav-item">
-                            <NavLink to="/" end className="nav-link text-white">
+                            <Link to="/" end className="nav-link text-white">
                                 Nosotros
-                            </NavLink>
+                            </Link>
                         </li>
                         <li className="nav-item">
-                            <NavLink to="/servicios" end className="nav-link text-white">
+                            <Link to="/servicios" end className="nav-link text-white">
                                 Servicios
-                            </NavLink>
+                            </Link>
                         </li>
                         <li className="nav-item">
-                            <NavLink to="/contactenos" end className="nav-link text-white">
+                            <Link to="/contactenos" end className="nav-link text-white">
                                 Contáctenos
-                            </NavLink>
+                            </Link>
                         </li>
                     </ul>
                     <ul className="col-sm-12 col-lg-3 navbar-nav back-primary mx-5 " role="tablist">
                         <li className="nav-item">
-                            <NavLink to="/" end className="nav-link text-white">
+                            <Link to="/" end className="nav-link text-white">
                                 Nosotros
-                            </NavLink>
+                            </Link>
                         </li>
                         <li className="nav-item">
-                            <NavLink to="/servicios" end className="nav-link text-white">
+                            <Link to="/servicios" end className="nav-link text-white">
                                 Servicios
-                            </NavLink>
+                            </Link>
                         </li>
                         <li className="nav-item">
-                            <NavLink to="/contactenos" end className="nav-link text-white">
+                            <Link to="/contactenos" end className="nav-link text-white">
                                 Contáctenos
-                            </NavLink>
+                            </Link>
                         </li>
                     </ul>
                     <ul className="col-sm-12 col-lg-6 navbar-nav back-primary mx-5">
                         <li className="nav-item">
-                            <NavLink to="/" end className="nav-link text-white">
+                            <Link to="/" end className="nav-link text-white">
                                 Nosotros
-                            </NavLink>
+                            </Link>
                         </li>
                         <li className="nav-item">
-                            <NavLink to="/servicios" end className="nav-link text-white">
+                            <Link to="/servicios" end className="nav-link text-white">
                                 Servicios
-                            </NavLink>
+                            </Link>
                         </li>
                         <li className="nav-item">
-                            <NavLink to="/contactenos" end className="nav-link text-white">
+                            <Link to="/contactenos" end className="nav-link text-white">
                                 Contáctenos
-                            </NavLink>
+                            </Link>
                         </li>
                     </ul>
                 </div>
