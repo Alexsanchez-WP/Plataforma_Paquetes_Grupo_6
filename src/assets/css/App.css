@@ -10,6 +10,10 @@
     background-color: var(--primaryColor);
 }
 
+.back-gray {
+    background-color: var(--grayColor);
+}
+
 /* Edit styles bootstrap */
 
 .active {
