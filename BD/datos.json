@@ -1,0 +1,15 @@
+[
+    {
+    "nombres": "Juan Tenorio",
+    "apellidos":"Eraso Panpa",
+    "email": "juantenorio@correo.com",
+    "id": "12993001"
+    },
+    {
+    "nombres": "Ana Victoria",
+    "apellidos": "Perez Perez",
+    "email": "ana@correo.com",
+    "id":"12993002"
+
+    }
+]

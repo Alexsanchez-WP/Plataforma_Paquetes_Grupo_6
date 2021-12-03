@@ -8,7 +8,7 @@ const Footer = () => {
                 <div className="container d-flex"> 
                     <ul className="col-sm-12 col-lg-3 navbar-nav back-primary mx-5 " role="tablist">
                         <li className="nav-item">
-                            <Link to="/" end className="nav-link text-white">
+                            <Link to="/nosotros" end className="nav-link text-white">
                                 Nosotros
                             </Link>
                         </li>

@@ -9,6 +9,7 @@ import Recibo from './pages/Recibo'
 import Login from './pages/Login';
 import Registro from './pages/Registro';
 import Footer from './pages/layouts/Footer';
+import Home from './pages/Home';
 
 
 const App = () => {
@@ -16,7 +17,8 @@ const App = () => {
     <Router>
       <Header />
       <Routes>
-        <Route path="/" element={<Nosotros />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/nosotros" element={<Nosotros />} />
         <Route path="/servicios" element={<Servicios />} />
         <Route path="/contactenos" element={<Contactenos />} />
         <Route path="/pqr" element={<Pqr />} />
@@ -28,5 +30,4 @@ const App = () => {
     </Router>
   );
 }
-
 export default App;

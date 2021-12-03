@@ -11,8 +11,13 @@ const Nav = () => {
                 </button>
                 <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
                     <ul className="navbar-nav back-primary mx-5 " role="tablist">
-                        <li className="nav-item">
+                    <li className="nav-item">
                             <NavLink to="/" end className="nav-link text-white">
+                                Inicio
+                            </NavLink>
+                        </li>
+                        <li className="nav-item">
+                            <NavLink to="/nosotros" end className="nav-link text-white">
                                 Nosotros
                             </NavLink>
                         </li>
