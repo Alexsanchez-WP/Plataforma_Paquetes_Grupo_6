@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link} from "react-router-dom";
-import imagen7 from '../assets/img/imagen7.jpg'
 
 const Servicios = () => {
     return (
