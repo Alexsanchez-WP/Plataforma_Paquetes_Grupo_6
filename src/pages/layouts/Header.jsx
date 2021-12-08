@@ -28,8 +28,7 @@ const Header = ({dataUser, setDataUser}) => {
                             <div className="mt-5 d-flex justify-content-center">
                                 {dataUser.nombres ? (                               
                                 <button onClick={() => setDataUser({})}
-                                    className="border-0 mx-2 btn btn-lg btn-secondary back-gray text-secondary" 
-                                    role="button">
+                                    className="border-0 mx-2 btn btn-lg btn-secondary back-gray text-secondary">
                                     Cerrar sesión {"  "}
                                     <FontAwesomeIcon icon={faLock} />
                                 </button>
