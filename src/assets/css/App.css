@@ -19,3 +19,13 @@
 .active {
     background-color: var(--secondaryColor) !important;
 }
+#about-section,
+#service-section {
+    background-color: var(--whiteColor);
+    padding: 0;
+}
+
+.banner2, .banner3{
+   background-position: unset; 
+   background-size: 100% 400px;
+}
