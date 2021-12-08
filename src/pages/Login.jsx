@@ -12,7 +12,7 @@ const Login = ({setDataUser}) => {
         const consult = await fetch("./BD/datos.json");
         const response = await consult.json();
         response.forEach(element => {
-            if(element.email == email.trim()){
+            if(element.email === email.trim()){
                 setDataUser(element);
                 return;
             }
