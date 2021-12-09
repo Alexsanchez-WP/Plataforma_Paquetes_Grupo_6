@@ -9,7 +9,8 @@
   "keywords": [
     "api",
     "paquetes",
-    "react"
+    "react",
+    "heroku"
   ],
   "author": "Grupos 6 Mision TIC",
   "license": "MIT",
@@ -22,5 +23,8 @@
     "dotenv": "^10.0.0",
     "express": "^4.17.1",
     "mongodb": "^4.2.1"
+  },
+  "engines": {
+    "node": "16.x"
   }
 }
