@@ -1,3 +1,8 @@
-import { env } from 'process';
+const express = require("express");
+const app = express();
 
-console.log(env)
+app.get("/", function (req, res) {
+    res.send("Api paqueteria grupo 6");
+});
+
+app.listen(3000);
