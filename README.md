@@ -1,5 +1,6 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/2a85cb3e-f4b1-4abe-b028-f5f02ec0f2ea/deploy-status)](https://app.netlify.com/sites/plataforma-paquetes-grupo-6/deploys) 
 ![Heroku](https://heroku-badge.herokuapp.com/?app=plataforma-paquetes-api)
+[![Deploy backend](https://github.com/Alexsanchez-WP/Plataforma_Paquetes_Grupo_6/actions/workflows/backen-deploy.yaml/badge.svg)](https://github.com/Alexsanchez-WP/Plataforma_Paquetes_Grupo_6/actions/workflows/backen-deploy.yaml)
 
 - Ambiente de desarrollo FrontEnd https://plataforma-paquetes-grupo-6.netlify.app/
 - Ambiente de desarrollo BackEnd https://plataforma-paquetes-api.herokuapp.com/
