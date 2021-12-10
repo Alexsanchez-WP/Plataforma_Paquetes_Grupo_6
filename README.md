@@ -45,6 +45,8 @@
 
 ## BackEnd
 
+Para el deploy del backend en ambiente de desarrollo se utiliza un github action
+
 #### Comandos
 
 - `cd backend` => Para ingresar a la carpeta el back - api
