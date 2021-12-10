@@ -69,7 +69,6 @@ const Login = ({setDataUser}) => {
                 </div>
             </div>
         </section>
-
     </>
     );
 }

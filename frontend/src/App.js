@@ -17,7 +17,6 @@ const App = () => {
 
   const [dataUser, setDataUser] = useState({});
 
-
   return (
     <Router>
       <Header dataUser={dataUser} setDataUser={setDataUser} />
