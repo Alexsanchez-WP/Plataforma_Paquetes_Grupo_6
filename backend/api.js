@@ -8,4 +8,4 @@ app.get("/", function (req, res) {
     res.send("Api paqueteria grupo 6");
 });
 
-app.listen(PORT, () => console.log('Escuchando por le puerto: ', PORT));
+app.listen(PORT, "0.0.0.0", () => console.log('Escuchando por le puerto: ', PORT));
