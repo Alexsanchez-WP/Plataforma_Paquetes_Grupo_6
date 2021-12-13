@@ -1,0 +1,3 @@
+{
+    "URL_DB": "mongodb+srv://<user>:<password>@demos.kxdoe.mongodb.net/paquetes?retryWrites=true&w=majority"
+}

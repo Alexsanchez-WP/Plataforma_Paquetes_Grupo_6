@@ -1,31 +1,31 @@
 {
-  "name": "plataforma-paquetes-api",
-  "version": "1.0.0",
-  "description": "Api para la conexion can base de datos en mongo Atlas y entrega a front en rect para sistema de paquetes",
-  "main": "api.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node api.js "
-  },
-  "keywords": [
-    "api",
-    "paquetes",
-    "react",
-    "heroku"
-  ],
-  "author": "Grupos 6 Mision TIC",
-  "license": "MIT",
-  "dependencies": {
-    "@babel/cli": "^7.16.0",
-    "@babel/core": "^7.16.0",
-    "@babel/node": "^7.16.0",
-    "@babel/preset-env": "^7.16.4",
-    "compression": "^1.7.4",
-    "dotenv": "^10.0.0",
-    "express": "^4.17.1",
-    "mongodb": "^4.2.1"
-  },
-  "engines": {
-    "node": "16.x"
-  }
+    "name": "plataforma-paquetes-api",
+    "version": "1.0.0",
+    "description": "Api para la conexion can base de datos en mongo Atlas y entrega a front en rect para sistema de paquetes",
+    "main": "api.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node api.js "
+    },
+    "keywords": [
+        "api",
+        "paquetes",
+        "react",
+        "heroku"
+    ],
+    "author": "Grupos 6 Mision TIC",
+    "license": "MIT",
+    "dependencies": {
+        "@babel/cli": "^7.16.0",
+        "@babel/core": "^7.16.0",
+        "@babel/node": "^7.16.0",
+        "@babel/preset-env": "^7.16.4",
+        "compression": "^1.7.4",
+        "dotenv": "^10.0.0",
+        "express": "^4.17.1",
+        "mongodb": "^4.2.1"
+    },
+    "engines": {
+        "node": "16.x"
+    }
 }

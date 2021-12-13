@@ -1,10 +1,11 @@
 const express = require("express");
+const { MongoClient } = require("mongodb");
 const app = express();
 require('dotenv').config()
 const APP_PORT = process.env.PORT || 8080;
 
 
-app.get("/", function (req, res) {
+app.get("/", function(req, res) {
     res.send("Api paqueteria grupo 6");
 });
 
