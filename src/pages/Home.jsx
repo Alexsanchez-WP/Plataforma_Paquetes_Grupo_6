@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { Link } from "react-router-dom";
 
 
 const Home = () => {
@@ -15,7 +15,9 @@ const Home = () => {
                     <p>Confíenos sus productos</p>
                     <h1><span>Trabajamos de la mano con usted</span></h1>
                     <input type="text" className="form-control" placeholder="Digite su número de guía" id="name" required data-validation-required-message="Por favor digite su número de guia." />
-                    <input type="submit" className="btn btn-primary" value="Buscar" />
+                    <Link to = '/frmBusquedaGuia'>
+                        <input type="submit" className="btn btn-primary" value="Buscar" />
+                    </Link>
                     
                 </div>
             </div>

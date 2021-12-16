@@ -10,6 +10,7 @@ import Login from './pages/Login';
 import Registro from './pages/Registro';
 import Footer from './pages/layouts/Footer';
 import Home from './pages/Home';
+import FrmBusquedaGuia from './pages/FrmBusquedaGuia';
 
 
 const App = () => {
@@ -25,6 +26,7 @@ const App = () => {
         <Route path="/centros-recibo" element={<Recibo />} />
         <Route path="/login" element={<Login />} />
         <Route path="/registro" element={<Registro />} />
+        <Route path="/frmBusquedaGuia" element={<FrmBusquedaGuia />} />
       </Routes>
       <Footer />
     </Router>
