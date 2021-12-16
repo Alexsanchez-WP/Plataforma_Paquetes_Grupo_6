@@ -1,3 +1,4 @@
+import { useState } from "react"
 import './assets/css/App.css';
 import Header from "./pages/layouts/Header";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
@@ -14,9 +15,12 @@ import FrmBusquedaGuia from './pages/FrmBusquedaGuia';
 
 
 const App = () => {
+
+  const [dataUser, setDataUser] = useState({});
+
   return (
     <Router>
-      <Header />
+      <Header dataUser={dataUser} setDataUser={setDataUser} />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/nosotros" element={<Nosotros />} />
@@ -24,7 +28,7 @@ const App = () => {
         <Route path="/contactenos" element={<Contactenos />} />
         <Route path="/pqr" element={<Pqr />} />
         <Route path="/centros-recibo" element={<Recibo />} />
-        <Route path="/login" element={<Login />} />
+        <Route path="/login" element={<Login setDataUser={setDataUser} />} />
         <Route path="/registro" element={<Registro />} />
         <Route path="/frmBusquedaGuia" element={<FrmBusquedaGuia />} />
       </Routes>
