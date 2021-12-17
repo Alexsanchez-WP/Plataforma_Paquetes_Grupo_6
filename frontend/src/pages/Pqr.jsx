@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import {Row, Col} from 'react-bootstrap'
 
 const Pqr = () => {
     return (
@@ -35,25 +36,34 @@ const Pqr = () => {
 
                         <form className='mt-5'>
                             <div className="form-group">
+                                <Row>
+                                    <Col>
+                                    <label for="documentoidentidad">Número de Documento</label>
+                                    <input type="text" className="form-control" id="DocIndentidad" placeholder="Digíte su número de identidad" />
+                                    </Col>
+                                    <Col>
+                                        <div id="form:tSol" className="ui-selectonemenu ui-widget ui-state-default ui-corner-all ui-helper-clearfix" style={{width: "215" }}>
+                                                <label id="form:tSol_label" className="ui-selectonemenu-label ui-inputfield ui-corner-all" style={{width: "284px;"}}>Tipo de documento</label>
+                                                <div className="ui-selectonemenu-trigger ui-state-default ui-corner-right">
+                                                    <span className="ui-icon ui-icon-triangle-1-s"></span>
+                                                </div>
+                                                <div className="ui-helper-hidden-accessible">
+                                                    <select id="form:tSol_input" name="form:tSol_input">
+                                                        <option value="" selected="selected">Seleccione</option>
+                                                        <option value="AFILIADO">Cédula de ciudanania</option>
+                                                        <option value="APODERADO">Cédula Extranjera</option>
+                                                        <option value="EDCYV">Nit</option>
+                                                        <option value="FAMILIAR">Pasaporte</option>
+                                                        <option value="PARTICULAR">Tarjeta Extranjera</option>
+                                                        <option value="PROVEEDOR">Tarjeta de identidad</option>
+                                                    </select>
+                                                </div>
+                                            
+                                        </div>
+                                    </Col>           
+                                </Row>
 
-                                <div id="form:tSol" className="ui-selectonemenu ui-widget ui-state-default ui-corner-all ui-helper-clearfix" style={{width: "215" }}>
-                                        <label id="form:tSol_label" className="ui-selectonemenu-label ui-inputfield ui-corner-all" style={{width: "284px;"}}>Documento de identidad</label>
-                                        <div className="ui-selectonemenu-trigger ui-state-default ui-corner-right">
-                                            <span className="ui-icon ui-icon-triangle-1-s"></span>
-                                        </div>
-                                        <div className="ui-helper-hidden-accessible">
-                                            <select id="form:tSol_input" name="form:tSol_input">
-                                                <option value="" selected="selected">Seleccione</option>
-                                                <option value="AFILIADO">Cédula de ciudanania</option>
-                                                <option value="APODERADO">Cédula Extranjera</option>
-                                                <option value="EDCYV">Nit</option>
-                                                <option value="FAMILIAR">Pasaporte</option>
-                                                <option value="PARTICULAR">Tarjeta Extranjera</option>
-                                                <option value="PROVEEDOR">Tarjeta de identidad</option>
-                                            </select>
-                                        </div>
-                                    
-                                </div>
+
 
                                 <label for="nombreContactenos">Nombre Completo</label>
                                     <input type="text" className="form-control" id="nombre" placeholder="Digíte su nombre completo" /> <p> </p>                             
@@ -61,8 +71,8 @@ const Pqr = () => {
                                     <input type="email" className="form-control" id="email-conctact" placeholder="usuario@ejemplo.com" />
                                 <label for="telContactenos">Teléfono</label>
                                     <input type="text" className="form-control" id="telContavtenos" placeholder="Digíte su teléfono de contacto" />
+                                
                                 <label for="depContactenos">Señor(a) usuario por favor seleccione el motivo de su solicitud</label>
-
                                 <tr>
                                     <td>
                                         <div className="ui-radiobutton ui-widget">
@@ -178,7 +188,7 @@ const Pqr = () => {
                                         Autorización para el tratamiento de datos personales
                                     </label>
                                 </div>
-                                
+
                             </div>
                             
                             <div className="form-group">
